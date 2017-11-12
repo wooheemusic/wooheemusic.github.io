@@ -1,0 +1,97 @@
+@CHARSET "UTF-8";
+
+svg.process {
+	display: block;
+	width: 4rem;
+	height: 4rem;
+	margin: auto;
+	animation: spin 2.3s linear infinite;
+}
+
+svg.process>circle {
+	/* stroke: rgba(0, 49, 83,0.5); */
+	stroke: rgba(200, 120, 0, 0.5);
+	fill: transparent;
+	stroke-width: 13%;
+	stroke-dasharray: 252%;
+	stroke-dashoffset: 0;
+	animation: larva 1s linear infinite;
+	transform-origin: 50% 50%;
+}
+
+@keyframes spin {
+	from { 
+		transform:rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+
+}
+@keyframes larva {
+  0% {
+    stroke-dashoffset: -189%;
+   transform: rotate(0deg);
+  }
+
+  8% {
+    stroke-dashoffset: -126%;
+    transform: rotate(90deg);
+  }
+
+  17% {
+    stroke-dashoffset: -63%;
+    transform: rotate(180deg);
+  }
+
+  25% {
+    stroke-dashoffset: -63%;
+    transform: rotate(180deg);
+  }
+
+  33% {
+    stroke-dashoffset: -126%;
+    transform: rotate(180deg);
+  }
+
+  42% {
+    stroke-dashoffset: -189%;
+    transform: rotate(180deg);
+  }
+
+  50% {
+    stroke-dashoffset: -189%;
+    transform: rotate(180deg);
+  }
+
+  58% {
+    stroke-dashoffset: -126%;
+    transform: rotate(270deg);
+  }
+
+  67% {
+    stroke-dashoffset: -63%;
+    transform: rotate(360deg);
+  }
+
+  75% {
+    stroke-dashoffset: -63%;
+    transform: rotate(360deg);
+  }
+
+  83% {
+    stroke-dashoffset: -126%;
+    transform: rotate(360deg);
+  }
+
+  92% {
+    stroke-dashoffset: -189%;
+    transform: rotate(360deg);
+  }
+
+  100% {
+    stroke-dashoffset: -189%;
+    transform: rotate(360deg);
+  }
+}

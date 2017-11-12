@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+<link rel="icon" type="image/png" href="/icon.png">
+
+<!-- external -->
+<link href="/css/external/raleway.css" rel="stylesheet">
+<link href="/css/external/material-icons.css" rel="stylesheet">
+<link href="/css/external/font-awesome.min.css" rel="stylesheet">
+<!-- reusable static first -->
+<link href="/css/wh-material.css" rel="stylesheet">
+<!-- page-dependent second -->
+<link href="/css/wh-framework.css" rel="stylesheet">
+<link href="/css/wh-animation.css" rel="stylesheet">
+<script>
+	console.log(window);
+</script>
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="float-right">
+				<svg id="logo"> 
+  					<rect x="18%" y="12%" width="40%" height="40%"></rect>
+ 					<rect x="61%" y="55%" width="20%" height="20%"></rect>
+ 					<rect x="48%" y="78%" width="10%" height="10%"></rect>
+  					<rect x="40%" y="70%" width="5%" height="5%"></rect>
+				</svg>
+			</div>
+			<h1></h1>
+			<p></p>
+
+		</div>
+	</header>
+
+	<div class="sections container">
+		<section class="section" data-section-name="">
+			<div class="card long-card scroller ripple">
+				<h2>About me</h2>
+				<p>
+					Hello. <i class="material-icons">sentiment_satisfied</i> Nice to meet you. I am just new in the 'Hello World'. But I am wondering if I would say there are some distinguishing features with me. <br>As for me, I am...
+				</p>
+				<ul>
+					<li>familiar with referring to any documentations.</li>
+					<li>precise, meticulous and always reasoning.</li>
+					<li>good at coding control statements and queries.</li>
+					<li>deeply understanding abstraction and reusability.</li>
+					<li>passionate and ambitious</li>
+				</ul>
+				<p>
+					Please click <a href="/aboutMe">here</a> for more information.
+				</p>
+			</div>
+			<div class="card long-card scroller">
+				<h2>The building components of this site and the server</h2>
+				<ul>
+					<li>Spring MVC framework</li>
+					<li>Hibernate</li>
+					<li>SectionFlow (a single page application framework I am working on as a leader)</li>
+					<li>RESTful</li>
+					<li>Google material design</li>
+				</ul>
+				<p>
+					Please click <a href="/thisSite">here</a> for more information.
+				</p>
+			</div>
+			<div class="card long-card scroller">
+				<h2>Boards</h2>
+				<div class="small-card ripple scroller spa-link" style="background-image: url('/img/spring.png');" data-href="/boards/spring" title="Spring"></div>
+				<div class="small-card ripple scroller spa-link" style="background-image: url('/img/hibernate.png');" data-href="/boards/hibernate" title="Hibernate"></div>
+				<div class="small-card ripple scroller spa-link" style="background-image: url('/img/java.png');" data-href="/boards/java" title="Java"></div>
+				<!-- <div class="small-card ripple scroller spa-link" style="background-image: url('/img/web.png');" data-href="/boards/web" title="Web"></div> -->
+				<div class="small-card ripple scroller spa-link" style="background-image: url('/img/sectionflow.png');" data-href="/boards/sectionflow" title="SectionFlow"></div>
+				<div class="small-card ripple scroller spa-link" data-href="/boards/guest" title="guest">
+					<i class="material-icons" style="font-size: 1rem; color: green;">create</i><br>guest
+				</div>
+				<div class="float-clear"></div>
+			</div>
+			<div class="card long-card scroller">
+				<h2>Services</h2>
+				<div class="small-card ripple scroller spa-link" style="background-image: url('/img/data.png');" data-href="/services/govData" title="govData"></div>
+				<div class="small-card ripple scroller spa-link" style="background-image: url('/img/gmap.png');" data-href="/services/gmap" title="Gmap"></div>
+				<div class="small-card ripple scroller spa-link" style="background-image: url('/img/weather.png');" data-href="/services/weather" title="weather"></div>
+
+				<div class="float-clear"></div>
+			</div>
+		</section>
+
+
+		<section class="section" data-section-name="aboutMe" data-path-segments-length="1">
+			<div class="card long-card scroller">
+				<h2>Cover Letter</h2>
+				<p>I have started to study and work on web applications from the beginning of last year. I thought I had to be a developer whom BIG entrepreneurs want to hire. I read a book 'How Google Works' then I found out the CEO of Google wants to hire developers who are creative and professional and
+					study on their own. So I have been striving to become like them.</p>
+				<p>I had thought I could finish the development of the application very easily and quickly but it has took more than a year to make it to fit my very first initiative, a gmail-like single page web application with the newest features of open APIs in compliance with the fundamental concepts
+					of software engineering(server architectures, normalized relations, web protocols and so on).</p>
+				<p>I did not intend to create a single page wep application(SPA) framework 'SectionFlow', but it was a necessary output from consideration of maintainability. It can enables html developers to develop a SPA with ONLY HTML and a little javascript configuration as if Spring framework do with
+					POJOs and some configuration.</p>
+				<p>
+					<span style="font-weight: bold;">I did well enough even in my early and narrow sight. If I meet and work with people who are excellect, I will do more than I did last one and half year.</span>
+				</p>
+
+			</div>
+			<div class="card long-card scroller">
+				<h2>PROFILE</h2>
+				<div>
+					<span style="font-weight: bold;">temperaments:</span>
+				</div>
+				<div>precise, meticulous and always reasoning.</div>
+				<div>
+					<br>
+				</div>
+				<div>
+					<span style="font-weight: bold;">disposition:</span>
+				</div>
+				<div>interested in beautiful fundamental concepts.</div>
+				<div>
+					<br>
+				</div>
+				<div>
+					<span style="font-weight: bold;">abilities:</span>
+				</div>
+				<div>good at reading Wikipedia.</div>
+				<div>good at reading javadoc.</div>
+				<div>good at reading open APIs' documentations.</div>
+				<div>good at simplifying codes.</div>
+				<div>good at being conscious of WHERE I AM in complex codes.</div>
+				<div>
+					<br>
+				</div>
+				<div>
+					<span style="font-weight: bold;">knowledges:</span>
+				</div>
+				<div>object oriented programing</div>
+				<div>relational database</div>
+				<div>HTTP 1.1 RESTful interface</div>
+				<div>
+					<br>
+				</div>
+				<div>
+					<span style="font-weight: bold;">major experiences: (almost fully)</span>
+				</div>
+				<div>
+					<span style="line-height: 1.45;">Spring and Hibernate</span>
+				</div>
+				<div>
+					<span style="line-height: 1.45;">Javascript, DOM API, CSS</span>
+				</div>
+				<div>
+					<br>
+				</div>
+				<div>
+					<span style="font-weight: bold;">minor experiences: (partly)</span>
+				</div>
+				<div>JSR-303 Bean Validation 1.0 /&nbsp;JSR-349 Bean Validation 1.1</div>
+				<div>
+					<span style="line-height: 1.45;">JSR-221 JDBC&nbsp;</span>
+				</div>
+				<div>JSR-343 Java Message Service 2.0</div>
+				<div>JSR-338 Java Persistence API</div>
+				<div>JSR-342 Java Platform, Enterprise Edition 7</div>
+				<div>JSR-340 Java Servlet 3.1</div>
+				<div>commons-dbcp</div>
+				<div>commons-lang</div>
+				<div>commons-fileupload</div>
+				<div>commons-io</div>
+				<div>jcl-over-slf4j / slf4j-log4j12</div>
+				<div>jstl</div>
+				<div>Domain-Driven Design</div>
+				<div>Google Guava</div>
+				<div>Google material design</div>
+				<div>Google search-engine-optimization guidelines</div>
+				<div>gradle, Eclipse, Tomcat, Toad, Chrome developers tool</div>
+				<div>
+					<br>
+				</div>
+				<div>
+					<span style="font-weight: bold;">pursuit:</span>
+				</div>
+				<div>data analysis, microservices and operation(devOps)</div>
+
+				<!-- <h2>PROFILE</h2>
+				<div>
+					<span style="font-weight: bold;">temperaments:</span>
+					<div>precise, meticulous and always reasoning.</div>
+				</div>
+				<div>
+					<br>
+				</div>
+				<div>
+					<span style="font-weight: bold;">disposition:</span>
+				</div>
+				<div>interested in beautiful fundamental concepts.</div>
+				<div>
+					<br>
+				</div>
+				<div>
+					<span style="font-weight: bold;">abilities:</span>
+				</div>
+				<div>good at reading Wikipedia.</div>
+				<div>good at reading javadoc.</div>
+				<div>good at reading open APIs' documentations.</div>
+				<div>good at simplifying codes.</div>
+				<div>good at being conscious of WHERE I AM in complex codes.</div>
+				<div>
+					<br>
+				</div>
+				<div>
+					<span style="font-weight: bold;">knowledges:</span>
+				</div>
+				<div>object oriented programing</div>
+				<div>relational database</div>
+				<div>HTTP 1.1 RESTful interface</div>
+				<div>
+					<br>
+				</div>
+				<div>
+					<span style="font-weight: bold;">experiences:</span>
+				</div>
+				<div>
+					Java EE,&nbsp;<span style="line-height: 1.45;">Spring and Hibernate</span>
+				</div>
+				<div>
+					<span style="line-height: 1.45;">DBCP,&nbsp;</span><span style="line-height: 1.45;">Gradle, JMS</span>
+				</div>
+				<div>
+					<span style="line-height: 1.45;">Javascript, DOM API, CSS</span>
+				</div>
+				<div>Oracle, Eclipse, Tomcat, Toad...</div>
+				<div>
+					<br>
+				</div>
+				<div>
+					<span style="font-weight: bold;">pursuit:</span>
+				</div>
+				<div>data analysis, microservices and operation(devOps)</div> -->
+			</div>
+			<div class="card long-card scroller">
+				<h2>Image Catalog</h2>
+				<img class="img-cell imageopen" src="/img/medicalRoute.jpg"> <img class="img-cell imageopen" src="/img/family.jpg">
+
+			</div>
+
+		</section>
+
+		<section class="section" data-section-name="thisSite" data-path-segments-length="1">
+			<div class="card long-card scroller">
+				<h2>Overview</h2>
+				<table>
+					<tr>
+						<th>Software Architecture</th>
+						<td>the three-tier architecture</td>
+					</tr>
+					<tr>
+						<th>Solution Stack</th>
+						<td>>Windows 7, Apache Tomcat 8.0, Oracle 11g , Java Spring 4.3.9</td>
+					</tr>
+					<tr>
+						<th>Development Environment</th>
+						<td>Eclipse Mars 2, Gradle 2.14</td>
+					</tr>
+					<tr>
+						<th>Logic and Data Design</th>
+						<td>Domain Driven Design with Spring Web MVC and Hibernate</td>
+					</tr>
+					<tr>
+						<th>Spring artifacts</th>
+						<td>Java-based configuration, AOP, REST supports, @Transactional, @TransactionalEventListener ...</td>
+					</tr>
+					<tr>
+						<th>Hibernate artifacts</th>
+						<td>lazy-handling by @MappedSuperclass, JOIN FETCH for the n+1 issue, spring-managed contextual session</td>
+					</tr>
+					<tr>
+						<th>File Upload</th>
+						<td>Direct streaming from clients to the database server without a multipart resolver.</td>
+					</tr>
+					<tr>
+						<th>Usages of Rest</th>
+						<td>Compliant with lastModified, eTag, methods, status codes ...</td>
+					</tr>
+					<tr>
+						<th>User Experience for Rest</th>
+						<td>The database is perfectly normalized and entities for the web interface are well transformed to non-relational</td>
+					</tr>
+					<tr>
+						<th>User Experience for Users</th>
+						<td>a Gmail-like single page application in compliance with the Google material design.</td>
+					</tr>
+					<tr>
+						<th>Front-end</th>
+						<td>Used only the pure Javascript and CSS.<br>Responsive but regardless of web accessibility (full HTML5).
+						</td>
+					</tr>
+
+				</table>
+			</div>
+		</section>
+
+		<section class="section" data-section-name="boards" data-path-segments-length="4">
+			<nav class="sub-menu">
+				<div class="sub-menu-cell ripple spa-link" data-href="/boards/spring">
+					<a href="/boards/spring">spring</a>
+				</div>
+				<div class="sub-menu-cell ripple spa-link" data-href="/boards/hibernate">
+					<a href="/boards/hibernate">hibernate</a>
+				</div>
+				<div class="sub-menu-cell ripple spa-link" data-href="/boards/java">
+					<a href="/boards/java">java</a>
+				</div>
+				<!-- <div class="sub-menu-cell ripple spa-link" data-href="/boards/web">
+					<a href="/boards/web">web</a>
+				</div> -->
+				<div class="sub-menu-cell ripple spa-link" data-href="/boards/sectionflow">
+					<a href="/boards/sectionflow">sectionFlow</a>
+				</div>
+				<div class="sub-menu-cell ripple spa-link" data-href="/boards/guest">
+					<a href="/boards/guest">guest</a>
+				</div>
+				<div class="sub-menu-cell float-right dialog-editor-trigger member-only">
+					<i class="material-icons">edit</i>
+				</div>
+				<div class="float-clear"></div>
+			</nav>
+			<div id="board">
+				<div class="progress-view">
+					<svg class="process">
+      					<circle cx="50%" cy="50%" r="40%"></circle>
+					</svg>
+				</div>
+				<div class="empty-list-view">
+					<div class="card long-card scroller">No article.</div>
+				</div>
+				<div class="list-view">
+					<div class="template card long-card scroller" data-collection="articles">
+						<div class="spa-link" data-property="#data-href#/boards/{articles.i.category}/{articles.i.articleId}/{articles.i.title}">
+							<!-- <div class="display-none" data-property="articles.i.articleId"></div> -->
+							<h3 class="float-left"><a class="spa-link" data-property="articles.i.title;#href#/boards/{articles.i.category}/{articles.i.articleId}/{articles.i.title}"></a></h3>
+							<!-- <div data-property="articles.i.category"></div> -->
+							<div class="float-right" data-property="#title#{articles.i.account.email};#html#{articles.i.account.nickname}"></div>
+							<!-- <div class="display-none" data-property="articles.i.account.email"></div> -->
+							<div class="float-right render" data-title-prefix="lastModified " data-render="date" data-property="articles.i.lastModified"></div>
+							<!-- <div class="display-none" class="render" data-render="date" data-property="articles.i.created"></div> -->
+							<div class="float-clear"></div>
+						</div>
+					</div>
+					<div class="search-container">
+						<div class="float-left">
+							<i class="board-refresh material-icons">refresh</i>
+						</div>
+						<div class="float-left">
+							<a class="search-before"><i class="material-icons">chevron_left</i></a>
+						</div>
+						<div class="float-left">
+							<a class="search-page"></a>
+						</div>
+						<div class="float-left">
+							<a class="search-page"></a>
+						</div>
+						<div class="float-left">
+							<a class="search-page"></a>
+						</div>
+						<div class="float-left">
+							<a class="search-page"></a>
+						</div>
+						<div class="float-left">
+							<a class="search-page"></a>
+						</div>
+						<div class="float-left">
+							<a class="search-next"><i class="material-icons">chevron_right</i></a>
+						</div>
+						<div class="float-clear"></div>
+					</div>
+				</div>
+				<div class="single-view card long-card" data-display="flex">
+					<nav>
+						<div class="float-left">
+							<i class="board-back material-icons">arrow_back</i>
+						</div>
+						<div class="float-right self-only">
+							<i class="board-delete material-icons">delete_forever</i>
+						</div>
+						<div class="float-right self-only">
+							<i class="board-modify material-icons">build</i>
+						</div>
+						<div class="float-clear"></div>
+					</nav>
+					<div class="flex-container">
+						<header>
+							<h2 data-property="article.title"></h2>
+							<div class="float-right bold" data-property="article.account.nickname"></div>
+							<div class="float-right italic" data-property="article.account.email"></div>
+							<div class="float-right" data-property="article.category"></div>
+							<div class="float-right render" data-title-prefix="lastModified " data-render="date" data-property="article.lastModified"></div>
+							<div class="float-right render" data-title-prefix="created " data-render="date" data-property="article.created"></div>
+							<div class="float-clear"></div>
+						</header>
+						<article>
+							<div class="display-none" data-property="article.articleId"></div>
+							<div data-property="article.content"></div>
+						</article>
+						<footer>
+							<div class="template float-left" data-collection="article.articleFiles">
+								<!-- <div class="display-none" data-property="article.articleFiles.i.articleFileId"></div> -->
+								<a data-property="#href#/rest/articles/{article.category}/{article.articleId}/articleFiles/{article.articleFiles.i.articleFileId}"><span data-property="article.articleFiles.i.name"></span></a> <span class="render" data-render="byte" data-property="article.articleFiles.i.length"></span>
+								<!-- <div data-property="article.articleFiles.i.type"></div> -->
+								<!-- <div class="render" data-render="date" data-property="article.articleFiles.i.created"></div> -->
+							</div>
+							<div class="float-clear"></div>
+						</footer>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section" data-section-name="services" data-path-segments-length="2">
+			<div class="comment">Under Construction.</div>
+			<nav class="sub-menu">
+				<div class="sub-menu-cell ripple spa-link" data-href="/services/main">
+					<a href="/services/main">main</a>
+				</div>
+				<div class="sub-menu-cell ripple spa-link" data-href="/services/govData">
+					<a href="/services/govData">govData</a>
+				</div>
+				<div class="sub-menu-cell ripple spa-link" data-href="/services/gmap">
+					<a href="/services/gmap">gmap</a>
+				</div>
+				<div class="sub-menu-cell ripple spa-link" data-href="/services/weather">
+					<a href="/services/weather">weather</a>
+				</div>
+				<div class="float-clear"></div>
+			</nav>
+			<div class="sub-sections">
+				<div class="sub-section" data-sub-section-name="main">
+					<div class="card long-card scroller">
+						ajax-get test area &lt;div class="ajax-get" data-view="account" data-mapping="/rest/session"&gt;<br> <br>
+						<div class="ajax-get" data-view="account" data-mapping="/rest/session"></div>
+					</div>
+
+				</div>
+				<div class="sub-section" data-sub-section-name="govData">
+					<div class="card long-card scroller">govData</div>
+				</div>
+				<div class="sub-section" data-sub-section-name="gmap">
+					<div class="card long-card scroller">gmap</div>
+				</div>
+				<div class="sub-section" data-sub-section-name="weather">
+					<div class="card long-card scroller">weather</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+
+	<footer id="bottomFooter">
+		<div class="container">
+			<p>
+				<a href="/"><i class="material-icons">mail</i> wooheemusic@naver.com</a>
+			</p>
+			<p>
+				<a href="https://github.com/wooheemusic" target="_blank"><i class="fa fa-github"></i> https://github.com/wooheemusic</a>
+			</p>
+		</div>
+	</footer>
+
+	<!-- dynamic fixed elements  -->
+	<div class="utilities">
+
+		<nav id="topNavigator">
+			<div class="container">
+				<div class="nav-cell float-right ripple dialog-login-trigger guest-only">Log in</div>
+				<div class="nav-cell float-right ripple dialog-signin-trigger guest-only">Sign in</div>
+				<div id="account-chip" class="nav-cell float-right member-only account-info">
+					<div>
+						&nbsp;<span data-property="account.email"></span>
+					</div>
+					<i class="material-icons dialog-account-trigger">account_circle</i>
+				</div>
+				<div class="nav-cell float-left ripple spa-link" data-href="/">
+					<svg id="logo-small"> 
+  						<rect x="18%" y="12%" width="40%" height="40%"></rect>
+ 						<rect x="61%" y="55%" width="20%" height="20%"></rect>
+  						<rect x="48%" y="78%" width="10%" height="10%"></rect>
+  						<rect x="40%" y="70%" width="5%" height="5%"></rect>
+					</svg>
+					<a href="/">My Portfolio</a>
+				</div>
+				<div class="nav-cell float-left ripple spa-link" data-href="/aboutMe">
+					<a href="/aboutMe">About Me</a>
+				</div>
+				<div class="nav-cell float-left ripple spa-link" data-href="/thisSite">
+					<a href="/thisSite">This Site?</a>
+				</div>
+				<div class="nav-cell float-left ripple spa-link" data-href="/boards">
+					<a href="/boards">Boards</a>
+				</div>
+				<div class="nav-cell float-left ripple spa-link" data-href="/services">
+					<a href="/services">Services</a>
+				</div>
+			</div>
+		</nav>
+
+		<nav id="nav-drawer">
+			<div class="nav-drawer-container">
+				<div class="nav-cell ripple dialog-login-trigger guest-only">
+					<i class="material-icons">account_box</i>Log in
+				</div>
+				<div class="nav-cell ripple dialog-signin-trigger guest-only">
+					<i class="material-icons">person_pin</i>Sign in
+				</div>
+				<div class="nav-cell ripple dialog-account-trigger member-only account-info">
+					<i class="material-icons">account_circle</i><span data-property="account.email"></span>
+				</div>
+				<hr>
+				<div class="nav-cell ripple spa-link" data-href="/">
+					<i class="material-icons">home</i>Home
+				</div>
+				<div class="nav-cell ripple spa-link" data-href="/aboutMe">
+					<i class="material-icons">accessibility</i>About Me
+				</div>
+				<div class="nav-cell ripple spa-link" data-href="/thisSite">
+					<i class="material-icons">build</i>This Site?
+				</div>
+				<div class="nav-cell ripple spa-link" data-href="/boards">
+					<i class="material-icons">create</i>Boards
+				</div>
+				<div class="nav-cell ripple spa-link" data-href="/services">
+					<i class="material-icons">bubble_chart</i>Services
+				</div>
+			</div>
+		</nav>
+
+		<div class="nav-drawer-trigger" id="icon-menu"></div>
+
+		<div class="dialog" id="dialog-signin">
+			<div id="sign-in-form">
+				<div class="dialog-header">Sing In</div>
+				<div class="dialog-body">
+					<input data-property="account.email" type="email" placeholder="email" pattern="[_\-A-Za-z\d]{3,20}@[A-Za-z\d\.]{4,20}" data-pattern-description="too short" required spellcheck="false" maxLength="30">
+					<input data-property="account.password" type="password" pattern="^(?=.*[A-Z|a-z])(?=.*[\d])[A-Z|a-z|\d]{8,30}$" data-pattern-description="alphabets or numbers more than 8" placeholder="password" required spellcheck="false" maxLength="30">
+					<input class="confirm" type="password" placeholder="confirm" required spellcheck="false" maxLength="30">
+					<input data-property="account.firstName" type="text" placeholder="first name" pattern="([\uAC00-\uD7A3]+|[A-Za-z]{2,}(\s[A-Za-z]{2,})*)" data-pattern-description="too short or invalid characters" required spellcheck="false" maxLength="20">
+					<input data-property="account.lastName" type="text" placeholder="last name" pattern="([\uAC00-\uD7A3]{1,}|[A-Za-z]{2,})" data-pattern-description="too short or invalid characters" required spellcheck="false" maxLength="20">
+					<input data-property="account.nickname" type="text" placeholder="nickname" pattern="[\uAC00-\uD7A3|A-Z|a-z|\d]{2,}" data-pattern-description="too short or invalid characters" required spellcheck="false" maxLength="20">
+					<input data-property="account.sex" type="radio" name="sex" value="MALE" checked>
+					MALE&nbsp;&nbsp;
+					<input data-property="account.sex" type="radio" name="sex" value="FEMALE">
+					FEMALE&nbsp;&nbsp; <br>BIRTHDAY :
+					<input data-property="account.birthday" type="date" placeholder="birthday" pattern="\d{4}-\d{2}-\d{2}" data-pattern-description="YYYY-MM-DD" required value="1982-03-07">
+					<input data-property="account.phoneNumber" type="text" placeholder="phone number" pattern="^[0-9][0-9-]*[0-9]$" data-pattern-description="number or -" required maxLength="20">
+				</div>
+				<div class="dialog-footer">
+					<div class="button float-right submit">submit</div>
+					<div class="button float-right cancel">cancel</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- <div class="dialog" id="dialog-modify-account">
+			<div id="account-form">
+				<div class="dialog-header">Modify Account</div>
+				<div class="dialog-body">
+					<input data-property="account.email" type="email" placeholder="email" pattern="[_\-A-Za-z\d]{3,20}@[A-Za-z\d\.]{4,20}" data-pattern-description="too short" required spellcheck="false" maxLength="30">
+					<input data-property="account.password" type="password" pattern="^(?=.*[A-Z|a-z])(?=.*[\d])[A-Z|a-z|\d]{8,30}$" data-pattern-description="alphabets or numbers more than 8" placeholder="password" required spellcheck="false" maxLength="30">
+					<input class="confirm" type="password" placeholder="confirm" required spellcheck="false" maxLength="30">
+					<input data-property="account.firstName" type="text" placeholder="first name" pattern="([\uAC00-\uD7A3]+|[A-Za-z]{2,}(\s[A-Za-z]{2,})*)" data-pattern-description="too short or invalid characters" required spellcheck="false" maxLength="20">
+					<input data-property="account.lastName" type="text" placeholder="last name" pattern="([\uAC00-\uD7A3]{1,}|[A-Za-z]{2,})" data-pattern-description="too short or invalid characters" required spellcheck="false" maxLength="20">
+					<input data-property="account.nickname" type="text" placeholder="nickname" pattern="[\uAC00-\uD7A3|A-Z|a-z|\d]{2,}" data-pattern-description="too short or invalid characters" required spellcheck="false" maxLength="20">
+					<input data-property="account.sex" type="radio" name="sex" value="MALE" checked>
+					MALE&nbsp;&nbsp;
+					<input data-property="account.sex" type="radio" name="sex" value="FEMALE">
+					FEMALE&nbsp;&nbsp; <br>BIRTHDAY :
+					<input data-property="account.birthday" type="date" placeholder="birthday" pattern="\d{4}-\d{2}-\d{2}" data-pattern-description="YYYY-MM-DD" required value="1982-03-07">
+					<input data-property="account.phoneNumber" type="text" placeholder="phone number" pattern="^[0-9][0-9-]*[0-9]$" data-pattern-description="number or -" required maxLength="20">
+				</div>
+				<div class="dialog-footer">
+					<div class="button float-right submit">submit</div>
+					<div class="button float-right cancel">cancel</div>
+				</div>
+			</div>
+		</div> -->
+
+		<div class="dialog" id="dialog-login">
+			<div id="log-in-form">
+				<div class="dialog-header">Log In</div>
+				<div class="dialog-body">
+					<input data-property="account.email" name="email" type="email" placeholder="email" required spellcheck="false" maxLength="30">
+					<input class="submit" data-property="account.password" type="password" placeholder="password" required spellcheck="false" maxLength="30">
+				</div>
+				<div class="dialog-footer">
+					<div class="button float-right submit">submit</div>
+					<div class="button float-right cancel">cancel</div>
+				</div>
+			</div>
+		</div>
+		<div class="dialog account-info" id="dialog-account">
+			<div class="dialog-header">Account Info</div>
+			<div class="dialog-body">
+				<div class="italic" data-property="account.email"></div>
+				<div class="bold" data-property="account.nickname"></div>
+			</div>
+			<div class="dialog-footer">
+				<div class="ajax-delete dialog-account-trigger button float-right" data-mapping="/rest/session" data-callback="logOut">log out</div>
+				<div class="dialog-account-trigger button float-right">cancel</div>
+			</div>
+		</div>
+		<div class="dialog" id="dialog-editor">
+			<div class="comment">The WYSWYG editor is under construction. Use 'copy' and 'paste' for HTML code.</div>
+			<div id="editor">
+				<input type="hidden" data-property="article.articleId">
+				<input class="member-only" type="text" placeholder="title" pattern=".{1,200}" data-pattern-description="~200 words" required data-property="article.title">
+				<div>
+					<div class="button float-left" title="under construction">
+						<i class="material-icons">format_color_text</i>
+					</div>
+					<div class="button float-left" title="under construction">
+						<i class="material-icons">code</i>
+					</div>
+					<div class="button float-left member-only">
+						<label for="file-attach"> <i class="material-icons">attach_file</i> <input type="file" id="file-attach" multiple>
+						</label>
+
+					</div>
+					<select class="button float-right member-only" disabled data-property="article.category">
+						<option value="spring" class="admin-only">spring</option>
+						<option value="hibernate" class="admin-only">hibernate</option>
+						<option value="java" class="admin-only">Java</option>
+						<!-- <option value="web" class="admin-only">web</option> -->
+						<option value="sectionflow" class="admin-only">sectionflow</option>
+						<option value="guest" class="member-only" selected>guest</option>
+					</select>
+					<div style="clear: both;"></div>
+				</div>
+				<div class="member-only" contentEditable="true" data-property="article.content"></div>
+				<div class="file-display">
+					<div class="file-container template" data-collection="article.articleFiles">
+						<a class="file-anchor" data-property="#href#/rest/articles/{article.category}/{article.articleId}/articleFiles/{article.articleFiles.i.articleFileId};#href#/rest/articleFiles/{article.articleFiles.i.articleFileId}"><span data-property="file.name;article.articleFiles.i.name"></span></a>
+						<div class="file-gauge-container">
+							<div class="file-gauge"></div>
+						</div>
+						<i class="file-delete material-icons">clear</i>
+					</div>
+				</div>
+				<div class="dialog-footer">
+					<div class="button float-right submit member-only">submit</div>
+					<div class="button float-right cancel">cancel</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="account-view template">
+			<div data-property="account.email"></div>
+			<div data-property="account.nickname"></div>
+			<div data-property="account.auth"></div>
+		</div>
+	</div>
+	
+	<!-- test -->
+<!--
+	<script src="/js/core/wh-utils-implementation.js"></script>
+	<script src="/js/core/es6.js"></script>
+	<script src="/js/core/SinglePageApplicationInitializer.js"></script>
+	<script src="/js/core/HtmlObjectMapper.js"></script>
+	<script src="/js/core/SpaLinkManager.js"></script>
+	<script src="/js/core/SectionFlow.js"></script>
+	<script src="/js/core/AccountManager.js"></script>
+	<script src="/js/core/ClassBasedAccountEventListerner.js"></script>
+	<script src="/js/core/AjaxGet.js"></script>
+	<script src="/js/core/AjaxDelete.js"></script>
+	<script src="/js/core/Renderer.js"></script>
+	<script src="/js/core/ImageManager.js"></script>
+	<script src="/js/core/Dialog.js"></script>
+	<script src="/js/core/PreuploadBoardEditor.js"></script>
+	<script src="/js/core/LazyUploader.js"></script>
+	<script src="/js/core/BasicForm.js"></script>
+	<script src="/js/core/Board.js"></script>
+	<script src="/js/effect/MenuIcon.js"></script>
+	<script src="/js/effect/Conditional.js"></script>
+	<script src="/js/effect/Rippler.js"></script>
+	<script src="/js/effect/Scroller.js"></script>
+	<script src="/js/effect/TopNavigator.js"></script>
+	<script src="/js/effect/BottomFooter.js"></script> -->
+
+	<!-- SectionFlow -->
+	<script src="/js/sectionflow-draft.js"></script> -->
+	<script src="/js/SectionFunction.js"></script>
+	<script src="/js/entities.js"></script>
+	<script src="/js/configuration.js"></script>
+
+</body>
+</html>
