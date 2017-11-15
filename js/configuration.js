@@ -1,11 +1,12 @@
 /**
  * 
  */
-var loggingLevel = "trace";
+//var loggingLevel = "trace";
 
 (function() {
 	
 	var myApp = new SinglePageApplicationInitializer();
+	//myApp.setCrossOrigin("http://localhost:8000"); // CORS test
 	if (location.origin === "https://wooheemusic.github.io"){
 		myApp.setCrossOrigin("http://220.85.205.251:8000"); // denied with Mixed Content message.
 	}
